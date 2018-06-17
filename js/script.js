@@ -18,7 +18,7 @@ function getRandomQuote(){
 
 //Displays random color each time quote changes
 function randomRGB() {
-    return Math.floor(Math.random() * 256);
+    return Math.floor(Math.random() * 100);
 }
 
 // calls getRandomQuote and stores return quote in variable
