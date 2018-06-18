@@ -13,7 +13,7 @@ var intervalID = window.setInterval(printQuote, 30000);
 
 // selects random quote object from quote array and returns
 function getRandomQuote(){
-  return randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  return quotes[Math.floor(Math.random() * quotes.length)];
 }
 
 //Displays random color each time quote changes
