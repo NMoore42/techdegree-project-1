@@ -14,7 +14,7 @@ const intervalID = window.setInterval(printQuote, 30000);
 // selects random quote object from quote array and returns
 const getRandomQuote = () => quotes[Math.floor(Math.random() * quotes.length)];
 
-//Displays random color each time quote changes
+//Displays random color each time quote changes!
 const randomRGB = () => Math.floor(Math.random() * 100);
 
 // calls getRandomQuote and stores return quote in variable
